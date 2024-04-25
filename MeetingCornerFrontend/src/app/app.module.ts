@@ -8,6 +8,7 @@ import { ClientComponent } from './pages/client/client.component';
 import { UsersComponent } from './pages/users/users.component';
 import { PackageActivationComponent } from './pages/package-activation/package-activation.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
